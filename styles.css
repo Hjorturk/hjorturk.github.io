@@ -8,7 +8,9 @@ body {
     margin: 0;
     color: rgb(255, 255, 255);
     height: 100vh;
-    background-image: url(images/SOA\ Jax\ Skull.jpg);
+    background-image: url(https://images.hdqwalls.com/wallpapers/sons-of-anarchy-jax-teller-5k-qd.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     opacity: 0.8;
 }
@@ -76,19 +78,6 @@ blockquote {
     text-decoration: none;
     text-transform: uppercase;
 }
-.innermenu {
-    display: flex;
-    flex-flow: column;
-}
-.innermenu a{
-    padding: .3em .5em;
-    background-color: rgb(26,38,211);
-    border-bottom: 1px solid #fff;
-    text-transform: uppercase;
-    color: rgb(255, 230, 189);
-    text-decoration: none;
-    text-align: center;
-}
 .verkefni {
     display: none;
     font-family: 'Roboto Condensed', sans-serif;
@@ -109,6 +98,7 @@ img {
     right: 1em;
     display: block;
     width: 1.6em;
+    height: 1.6em;
     color: #fff;
     font-size: 2em;
     border: 1px solid #fff;
@@ -116,6 +106,19 @@ img {
     text-decoration: none;
     border-radius: 50%;
     background-color: rgba(0,0,9,.5);
+}
+.innermenu {
+    display: flex;
+    flex-flow: column;
+}
+.innermenu a{
+    padding: .3em .5em;
+    background-color: rgb(45, 33, 116);
+    border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    text-align: center;
 }
 @media screen and (min-width:37.5em) {
     .col-2 {
