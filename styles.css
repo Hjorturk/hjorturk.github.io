@@ -1,0 +1,171 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Oswald', cursive;
+    line-height: 1.6;
+    /*background-color: rgb(23, 25, 119)*/
+    margin: 0;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    background-image: url(images/SOA\ Jax\ Skull.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+blockquote {
+    background-color: rgba(160, 59, 59, 0.3);
+    padding:0.5em 1em;
+    font-family: 'Syne Tactile', 'sans-serif'
+}
+.riddle {
+    font-family: 'Syne Tactile', cursive;
+}
+.r1 {
+    text-align: right;
+    padding-right: 1em;
+}
+.content {
+    font-family: 'Roboto Condensed', cursive;
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 1em;
+}
+.beige {
+    background-color: rgb(138, 192, 236);
+    color: rgb(255, 255, 255);
+    padding: 1em;
+}
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.header a {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.footer a {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.footer a:visited {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.footer ul {
+    list-style-type: none;
+}
+.header h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin: 1em 0;
+}
+.topnav {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+}
+.topnav a {
+    display: block;
+    padding-left: 2em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.innermenu {
+    display: flex;
+    flex-flow: column;
+}
+.innermenu a{
+    padding: .3em .5em;
+    background-color: rgb(26,38,211);
+    border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+    color: rgb(255, 230, 189);
+    text-decoration: none;
+    text-align: center;
+}
+.verkefni {
+    display: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.copy {
+    text-align: center;
+}
+.padd3em {
+    padding-top: 3em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.button {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    display: block;
+    width: 1.6em;
+    color: #fff;
+    font-size: 2em;
+    border: 1px solid #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: rgba(0,0,9,.5);
+}
+@media screen and (min-width:37.5em) {
+    .col-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .col-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .main-col-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+    }
+    .topnav {
+        margin-top: 2em;
+    }
+    .innermenu {
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+    .innermenu a {
+        padding: .3 1.5em;
+        border-bottom: 0;
+        border-right: 1px solid #fff;
+    }
+    .innermenu a:last-child {
+        border-right: 0;
+    }
+}
+@media screen and (min-width:48em) {
+    .col-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .header h1 {
+        font-size: 3em;
+    }
+    .verkefni {
+        display: block;
+        text-align: right;
+    }
+}
+@media screen and (min-width:60em) {
+    .content {
+        max-width: 60em;
+    }
+    .col-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
