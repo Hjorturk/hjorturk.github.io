@@ -19,6 +19,7 @@ blockquote {
     padding:0.5em 1em;
     font-family: 'Syne Tactile', 'sans-serif';
     color: black;
+    margin: 1em;
 }
 .r1 {
     text-align: right;
@@ -123,29 +124,35 @@ img {
 }
 .SOAS1 {
     padding: 1em;
-    width: 250px;
-    height: 250px;
+    width: 20em;
+    height: 20em;
 }
 .gluggi {
-    padding: 1em;
+    padding-right: 1em;
+    float: left;
 }
 .jaxbike {
     padding: 1em;
-    width: 250px;
-    height: 250px;
+    width: 15em;
+    height: 15em;
 }
 .reaper {
     float: left;
-    width: 450px;
-    height: 450px;
+    width: 25em;
+    height: 25em;
 }
 .jgc {
     padding: 1em;
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 12em;
+    height: 12em;
 }
-.SAMCRO {}
+.rightheader {
+    float: right;
+}
+.gmaps {
+    float: right;
+}
 @media screen and (min-width:37.5em) {
     .col-2 {
         display: grid;
