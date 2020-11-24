@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# Myndvinnsla
 
-You can use the [editor on GitHub](https://github.com/Hjorturk/hjorturk.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+![Octocat](images/octocat.svg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Markmið:
+Nemendur eiga að geta unnið með myndir þannig að hægt sé að birta þær í vafra. Einnig eiga nemendur að geta sett inn kvikmynd (_video_) og hljóðskrá á vefsíðu sem hægt er að spila í vafranum. Einnig eiga nemendur að setja inn staðsetningarkort á vefsíðuna. 
 
-### Markdown
+### Verkefnalýsing er í Innu
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Námsmat 10% af heildareinkunn
+* 5% Myndvinnsla og uppsetning 
+* 2% 5.2 Kvikmynd (Video) er á vefsíðunni
+* 2% 5.3 Hljóðskrá er á vefsíðunni 
+* 1% 5.4 Kort er á vefsíðunni 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Hjorturk/hjorturk.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### Einkunn verður birt í Innu
