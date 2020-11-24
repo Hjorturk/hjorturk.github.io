@@ -126,7 +126,7 @@ img {
 .SOAS1 {
     padding: 1em;
     width: 20em;
-    height: 20em;
+    height: 14.25em;
 }
 .gluggi {
     padding-right: 1em;
@@ -140,17 +140,22 @@ img {
 .reaper {
     float: left;
     width: 25em;
-    height: 25em;
+    height: 22.5em;
 }
 .jgc {
     padding: 1em;
-    float: left;
     width: 12em;
     height: 12em;
 }
 .map {
     height: 25em;
     width: 30em;
+}
+.crows {
+    background-color: rgba(160, 59, 59, 0.3);
+    padding:0.5em 1em;
+    font-family: 'Roboto Condensed', 'sans-serif';
+    color: black;
 }
 @media screen and (min-width:37.5em) {
     .col-2 {
@@ -186,6 +191,12 @@ img {
     }
     .gmaps {
         padding-left: 10em;
+    }
+    .jgc {
+        float: left;
+    }
+    .crows {
+    margin-left: 36em;
     }
 }
 @media screen and (min-width:48em) {
