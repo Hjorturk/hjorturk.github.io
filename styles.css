@@ -148,6 +148,13 @@ img {
     width: 12em;
     height: 12em;
 }
+.gmaps {
+    float: right;
+}
+.map {
+    height: 25em;
+    width: 30em;
+}
 @media screen and (min-width:37.5em) {
     .col-2 {
         display: grid;
@@ -176,6 +183,10 @@ img {
     }
     .innermenu a:last-child {
         border-right: 0;
+    }
+    .map {
+        padding-left: 10em;
+
     }
 }
 @media screen and (min-width:48em) {
