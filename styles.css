@@ -118,27 +118,34 @@ img {
     text-decoration: none;
     text-align: center;
 }
+img {
+    float: right;
+}
 .SOAS1 {
     padding: 1em;
-    margin: 1em;
-    float: right;
+    width: 250px;
+    height: 250px;
 }
 .gluggi {
     padding: 1em;
 }
 .jaxbike {
     padding: 1em;
-    margin-left: 7.5em;
+    width: 250px;
+    height: 250px;
 }
 .reaper {
-    padding: 1em;
-    margin-top: 2.5em;
+    float: left;
+    width: 450px;
+    height: 450px;
 }
 .jgc {
     padding: 1em;
-    margin-left: 10em;
-    margin-top: 5em;
+    float: left;
+    width: 200px;
+    height: 200px;
 }
+.SAMCRO {}
 @media screen and (min-width:37.5em) {
     .col-2 {
         display: grid;
