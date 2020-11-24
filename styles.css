@@ -13,11 +13,12 @@ body {
     background-attachment: fixed;
     background-size: cover;
     opacity: 0.8;
+    font-size: 100%;
 }
 blockquote {
     background-color: rgba(160, 59, 59, 0.3);
     padding:0.5em 1em;
-    font-family: 'Syne Tactile', 'sans-serif';
+    font-family: 'Roboto Condensed', 'sans-serif';
     color: black;
     margin: 1em;
 }
@@ -146,12 +147,6 @@ img {
     float: left;
     width: 12em;
     height: 12em;
-}
-.rightheader {
-    float: right;
-}
-.gmaps {
-    float: right;
 }
 @media screen and (min-width:37.5em) {
     .col-2 {
